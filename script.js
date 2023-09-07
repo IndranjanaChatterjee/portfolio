@@ -47,3 +47,25 @@ more.addEventListener("click", () => {
     more.innerText = "Click for More";
   }
 });
+const submit=document.getElementById("submit");
+submit.addEventListener("click",()=>
+{
+  
+  sendemail();
+})
+function sendemail()
+{
+  let body="Name:"+document.getElementById("nn").value+"<br>"+"Email:"+document.getElementById("em").value+"<br>"+"Subject:"+document.getElementById("sub").value+"<br>"+"Text:"+document.getElementById("msg").value;
+  console.log(body);
+  Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "indranjanachatterjee@gmail.com",
+    Password : "2B0B26CD004356A676BA6053185DB22B6A07",
+    To : 'indranjanachatterjee@gmail.com',
+    From :'indranjanachatterjee@gmail.com',
+    Subject : "This is the subject",
+    Body :body
+}).then(
+  message => alert(message)
+);
+}
