@@ -772,7 +772,7 @@ main .Contact .give .details
 }
 @media (max-width: 1130px) {
   header nav .two ul {
-    height: 100vh;
+    height: 90vh;
     position: fixed;
     top: 0;
     left: 0;
