@@ -37,9 +37,9 @@ header nav {
   align-items: center;
   justify-content: space-between;
   padding: 0.8rem;
-  color: #000000;
+  color: #bebbbb;
   font-size: 2vw;
-  background-color: #ffffff;
+  background-color: #130127;
   max-width: 100%;
   transition: all 0.5s;
   border: none;
@@ -782,9 +782,10 @@ main .Contact .give .details
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: all 1s ease-in-out;
-    display: none;
+    transition: top 1s ease-in-out;
+    
     background-color: rgb(19, 1, 39, 0.9);
+    display: none;
   }
   header nav .two ul li a {
     font-size: 2rem;
