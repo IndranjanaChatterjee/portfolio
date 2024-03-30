@@ -36,7 +36,7 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.8rem;
+  padding: 0.1rem;
   color: #bebbbb;
   font-size: 2vw;
   background-color: #130127;
@@ -61,6 +61,7 @@ header nav .two ul {
 header nav .two ul li {
   list-style: none;
   
+  
 }
 header nav .two .main i,
 header nav .two ul .close i {
@@ -72,7 +73,7 @@ header nav .two ul .close i {
 header nav .two ul li a {
   text-decoration: none;
   color: #bebbbb;
-  font-size: 1rem;
+  font-size: 1.5rem;
   transition: all 0.6s linear;
   display: flex;
   justify-content: center;
@@ -419,7 +420,7 @@ main .Skills .skills .professional .skill1:hover {
   padding-bottom: 1rem;
 }
 .ic{
-  width: 7rem;
+  width: 6rem;
 }
 
 .p {
