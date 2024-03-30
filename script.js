@@ -2,6 +2,7 @@ var typed = new Typed("#element", {
   strings: [
     "Web developer",
     "Competitive Coder",
+    "UI/UX Designer",
     "Coding Enthusiast",
     "Problem Solver",
   ],

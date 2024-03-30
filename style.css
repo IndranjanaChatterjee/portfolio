@@ -99,6 +99,19 @@ main .Home {
   transform-origin: 70% 70%; 
   display: inline-block;
 }
+.login::after{
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  transition: 0.3s;
+  left: 0;
+  bottom: -10px;
+  background-color: white;
+}
+.login:hover::after{
+  width: 100%;
+}
 
 @keyframes wave-animation {
   0% {
@@ -404,6 +417,9 @@ main .Skills .skills .professional .skill1:hover {
   width: 90%;
   border-bottom: 1px solid cyan;
   padding-bottom: 1rem;
+}
+.ic{
+  width: 7rem;
 }
 
 .p {
