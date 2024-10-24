@@ -214,8 +214,9 @@ main .About .image .i {
   width: 30rem;
   margin: 1rem;
   position: absolute;
-  bottom:-15%;
-  left:-30%;
+  bottom:0%;
+  top:1%;
+  left:10%;
   z-index: -1;
 }
 main .About .intro .more {
@@ -423,6 +424,9 @@ main .Skills .skills .professional .skill1:hover {
 .ic{
   width: 6rem;
 }
+.ipic{
+  width: 30rem;
+}
 
 .p {
   display: flex;
@@ -487,9 +491,9 @@ main .Resume {
   padding: 2rem;
 }
 main .Resume .cv {
-  width: 100%;
+  width: 5rem;
   margin-top: 1rem;
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -511,9 +515,9 @@ main .Resume #cv {
   text-align: center;
 }
 .cv a button {
-  width: 10rem;
-  height: 3.5rem;
-  font-size: 1.2rem;
+  width: 20rem;
+  height: 5rem;
+  font-size: 2rem;
 
   border: 1.5px solid cyan;
   border-radius: 3rem;
@@ -757,7 +761,7 @@ footer p
     flex-wrap: wrap-reverse;
   }
   .i {
-    width: 100%;
+    width: 50rem;
   }
 }
 @media (max-width: 650px) {
@@ -817,8 +821,8 @@ main .Contact .give .details .email ,main .Contact .give .details .phn ,main .Co
   width: 25rem;
   margin: 1rem;
   position: absolute;
-  top:34%;
-  left:-30%;
+  top:70%;
+  left:30%;
   z-index: -1;
 }
 }
@@ -865,6 +869,30 @@ main .Contact .give .details .email ,main .Contact .give .details .phn ,main .Co
     display: block;
   }
 
+  
+}
+
+#p{
+  width: 20rem;
+  height: 20rem;
+  padding: 5rem;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 1px 1px cyan;
+}
+
+.pice{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.list_of_events{
+  font-size: 5rem;
+  font-weight: 500;
+  color: cyan;
   
 }
 
